@@ -1,0 +1,77 @@
+main {
+    color: white;
+    background-image: url("src\assets\img\startbackground.jpg");
+    min-height: 100%;
+}
+
+#section-banner {
+    margin: 5%;
+    min-height: 400px;
+}
+
+#section-banner img {
+    border: 5px solid #01ff48;
+    border-radius: 5px;
+    height: 800px;
+}
+
+#card-holder {
+    margin: 5%;
+    margin-top: 0%;
+    min-height: 800px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#card-holder h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+.example-card {
+    text-align: center;
+    max-width: 400px
+}
+
+.example-header-image {
+    background-size: auto;
+}
+
+mat-card {
+    background-color: #1f1f1f;
+}
+
+mat-card button {
+    color: black;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #01ff48; 
+    margin: 10px;
+    font-size: 20px;
+}
+
+mat-grid-list {
+    margin: 10px 0px;
+}
+
+mat-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+mat-card-actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+mat-card-actions b {
+    color: white;
+    font-size: 30px;
+}
+
+mat-card img {
+    height: 300px;
+    width: 400px;
+}
